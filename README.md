@@ -29,3 +29,8 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## routerLink
 Using direct routes in href property reloads the whole application and app data gets lost.
 Passing the routes in routerLink property, parses the string and render the specific component only with no reload of the appllication.
+
+## relative path
+Relative path appends the current path.
+relative path: defining route without "/" or with "./" (add to current path) or with "../" (go up one level)
+absolute path: defining route with "/"
