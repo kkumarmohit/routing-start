@@ -34,3 +34,7 @@ Passing the routes in routerLink property, parses the string and render the spec
 Relative path appends the current path.
 relative path: defining route without "/" or with "./" (add to current path) or with "../" (go up one level)
 absolute path: defining route with "/"
+
+## Point for navigation
+routerLink knows what is the current component on which we are at and hence the relative paths should be carefully defined.
+router.Navigate("") doesn't know the current place where we are at. An extra argument can be passed for the above purpose.
