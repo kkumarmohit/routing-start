@@ -42,3 +42,7 @@ router.Navigate("") doesn't know the current place where we are at. An extra arg
 ## snapshot
 the snapshot property of the activated route gets updated when the component has been loaded for the first time only.
 It won't re-render the component on which we already are on to fetch the new values.
+
+## **
+Wildcard routes: if none of the routes defined matches, then "**" path gets used which renders or redirects the request.
+Note: wildcard route must be defined as the last element of the array. 
