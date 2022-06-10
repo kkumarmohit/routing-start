@@ -38,3 +38,7 @@ absolute path: defining route with "/"
 ## Point for navigation
 routerLink knows what is the current component on which we are at and hence the relative paths should be carefully defined.
 router.Navigate("") doesn't know the current place where we are at. An extra argument can be passed for the above purpose.
+
+## snapshot
+the snapshot property of the activated route gets updated when the component has been loaded for the first time only.
+It won't re-render the component on which we already are on to fetch the new values.
